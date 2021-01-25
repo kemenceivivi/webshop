@@ -1,0 +1,15 @@
+.container_{
+   
+    width: 90vw;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-areas:"left main";
+    grid-template-columns: 1fr 3fr;
+ }
+ .cell-2 {
+   
+    grid-area: left;
+ }
+ .cell-3 {
+    grid-area: main;
+ }
